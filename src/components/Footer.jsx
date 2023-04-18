@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark-blue  py-16 px-8  text-slate-50 flex flex-col  items-center text-center justify-center lg:flex lg:flex-row lg:text-left lg:gap-20 lg:px-16">
+    <footer className="font-public bg-dark-blue  py-16 px-8  text-slate-50 flex flex-col  items-center text-center justify-center lg:flex lg:flex-row lg:text-left lg:gap-20 lg:px-16">
       <div className="flex flex-col items-center gap-10 lg:gap-0 lg:items-start">
         <img
           src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806549/logo2_xq5xmh.svg"

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="bg-very-light-gray text-lg pb-20 overflow-hidden lg:flex lg:flex-row-reverse lg:pb-52 xl:pb-32">
+    <header className="font-public bg-very-light-gray text-lg pb-20 overflow-hidden lg:flex lg:flex-row-reverse lg:pb-52 xl:pb-32">
       <Navbar />
 
       <div className="flex justify-end md:hidden">

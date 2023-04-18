@@ -17,6 +17,9 @@ export default {
         lg: "960px",
         xl: "1200px",
       },
+      fontFamily: {
+        public: ["Public Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],

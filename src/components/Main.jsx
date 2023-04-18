@@ -1,7 +1,7 @@
 import Cards from "./cards";
 const Main = () => {
   return (
-    <main className=" bg-light-grayish-blue px-10 py-24 text-center text-lg lg:-mt-72 lg:text-left">
+    <main className="font-public bg-light-grayish-blue px-10 py-24 text-center text-lg lg:-mt-72 lg:text-left">
       <div className="mb-20 me-auto ms-auto sm:max-w-md lg:pl-8 lg:me-0 lg:ms-0">
         <h2 className="text-4xl "> Why choose Easybank? </h2>
         <p className="text-grayish-blue mt-6">

@@ -1,7 +1,7 @@
 import React from "react";
 const LatestCard = (props) => {
   return (
-    <div className="mt-6 sm:max-w-md me-auto ms-auto md:max-w-lg  lg:max-w-md  ">
+    <div className="font-public mt-6 sm:max-w-md me-auto ms-auto md:max-w-lg  lg:max-w-md  ">
       <img
         src={props.img}
         alt=""
