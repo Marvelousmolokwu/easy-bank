@@ -13,14 +13,16 @@ const Main = () => {
       <div className="flex flex-col gap-16  text-center sm:max-w-md me-auto ms-auto md:flex md:flex-row lg:m-0 lg:max-w-[100%] lg:pl-8 lg:gap-10 ">
         <div className="flex flex-col gap-16 lg:flex lg:flex-row lg:gap-10">
           <Cards
-            image="./src/images/icon-online.svg"
+            image="https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806539/icon-online_bd41hq.svg"
             name="Online Banking"
             contents="  Our modern web and mobile applications allow you to keep track of your finances 
   wherever you are in the world.
 "
           />
           <Cards
-            image={"/src/images/icon-budgeting.svg"}
+            image={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806537/icon-budgeting_asx2bm.svg"
+            }
             name=" Simple Budgeting"
             contents="
  
@@ -30,14 +32,18 @@ const Main = () => {
         </div>
         <div className="flex flex-col gap-16 lg:flex lg:flex-row lg:gap-10">
           <Cards
-            image={"/src/images/icon-onboarding.svg"}
+            image={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806538/icon-onboarding_r8pchf.svg"
+            }
             name="
   Fast Onboarding"
             contents="  We don’t do branches. Open your account in minutes online and start taking control 
   of your finances right away."
           />
           <Cards
-            image={"/src/images/icon-api.svg"}
+            image={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806537/icon-api_mlxc79.svg"
+            }
             name="  Open API"
             contents="  Manage your savings, investments, pension, and much more from one account. Tracking 
   your money has never been easier."

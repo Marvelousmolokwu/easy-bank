@@ -3,16 +3,21 @@ import Button from "./Button";
 import React from "react";
 
 const Navbar = () => {
-  const [mobile, setMobile] = React.useState(true);
+  const [mobile, setMobile] = React.useState(false);
 
   return (
     <nav className=" flex justify-between items-center p-4  bg-white absolute top-0 right-0 left-0 xl:px-20 ">
-      <img src="/src/images/logo.svg" alt="logo" />
+      <img
+        src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806548/logo_k900zf.svg"
+        alt="logo"
+      />
       <img
         className="cursor-pointer hover:bg-slate-100 lg:hidden "
         onClick={() => setMobile(!mobile)}
         src={
-          mobile ? "/src/images/icon-close.svg" : "/src/images/icons8-menu.svg"
+          mobile
+            ? "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806537/icon-close_h5hess.svg"
+            : "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806538/icon-hamburger_wqqdgi.svg"
         }
         alt="menu"
       />

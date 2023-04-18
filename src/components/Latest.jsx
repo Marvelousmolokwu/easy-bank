@@ -10,7 +10,9 @@ const Latest = () => {
       <div className="flex flex-col gap-2 md:flex md:flex-row md:gap-6 lg:flex lg:gap-10 ">
         <div className="flex flex-col gap-2 md:gap-4 xl:flex-row xl:gap-10">
           <LatestCard
-            img={"/src/images/image-currency.jpg"}
+            img={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806541/image-currency_skztnx.jpg"
+            }
             writtenBy="  By Claire Robinson"
             title=" Receive money in any currency with no fees"
             content=" 
@@ -19,7 +21,9 @@ const Latest = () => {
 "
           />
           <LatestCard
-            img={"/src/images/image-restaurant.jpg"}
+            img={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806543/image-restaurant_ey7elk.jpg"
+            }
             writtenBy="    By Wilson Hutton"
             title="  Treat yourself without worrying about money"
             content=" 
@@ -30,7 +34,9 @@ const Latest = () => {
         </div>
         <div className="flex flex-col gap-2 md:gap-4 xl:flex-row xl:gap-10">
           <LatestCard
-            img={"/src/images/image-plane.jpg"}
+            img={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806541/image-plane_zfvexp.jpg"
+            }
             writtenBy="   By Wilson Hutton
 "
             title="
@@ -41,7 +47,9 @@ const Latest = () => {
 "
           />
           <LatestCard
-            img={"/src/images/image-confetti.jpg"}
+            img={
+              "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806540/image-confetti_ihi1ij.jpg"
+            }
             writtenBy="   
   By Claire Robinson
 "

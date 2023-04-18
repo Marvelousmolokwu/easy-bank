@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-dark-blue  py-16 px-8  text-slate-50 flex flex-col  items-center text-center justify-center lg:flex lg:flex-row lg:text-left lg:gap-20 lg:px-16">
       <div className="flex flex-col items-center gap-10 lg:gap-0 ">
-        <img src="/src/images/logo2.svg" alt="logo" className="w-[150px]" />
+        <img
+          src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806549/logo2_xq5xmh.svg"
+          alt="logo"
+          className="w-[150px]"
+        />
         <div className=" mb-10 flex gap-6 lg:mt-9 lg:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
