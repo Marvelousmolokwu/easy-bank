@@ -28,7 +28,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="text-center flex flex-col gap-8 items-center px-4 mt-3 sm:max-w-md me-auto ms-auto sm:mt-40 md:mt-10 lg:self-center lg:max-w-lg lg:text-left lg:items-start lg:pl-16">
+      <div className="text-center flex flex-col gap-8 items-center px-4 mt-3 sm:max-w-md me-auto ms-auto sm:mt-40 md:mt-10 lg:self-center lg:max-w-lg lg:text-left lg:mr-auto lg:items-start lg:pl-16 lg:me-0 lg:mx-0">
         <h1 className="text-5xl leading-[55px]">
           Next generation digital banking
         </h1>
